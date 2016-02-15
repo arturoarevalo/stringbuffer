@@ -1,6 +1,6 @@
 {
   "name": "stringbuffer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A lightweight, zero dependencies, StringBuffer implementation for fast and memory efficient string concatenation.",
   "main": "lib/index.js",
   "scripts": {
