@@ -1,0 +1,27 @@
+{
+  "name": "stringbuffer",
+  "version": "0.0.1",
+  "description": "A lightweight, zero dependencies, StringBuffer implementation for fast and memory efficient string concatenation.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "rm -rf lib && mkdir lib && iced -b -c -o lib/ -I node src/index.iced"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturoarevalo/stringbuffer.git"
+  },
+  "keywords": [
+    "string",
+    "buffer",
+    "builder",
+    "stringbuffer",
+    "stringbuilder"
+  ],
+  "author": "Arturo Arévalo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arturoarevalo/stringbuffer/issues"
+  },
+  "homepage": "https://github.com/arturoarevalo/stringbuffer#readme"
+}
